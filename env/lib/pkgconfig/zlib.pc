@@ -1,0 +1,13 @@
+prefix=/Users/surajnag/Documents/book_recommendation_system/env
+exec_prefix=/Users/surajnag/Documents/book_recommendation_system/env
+libdir=/Users/surajnag/Documents/book_recommendation_system/env/lib
+sharedlibdir=/Users/surajnag/Documents/book_recommendation_system/env/lib
+includedir=/Users/surajnag/Documents/book_recommendation_system/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

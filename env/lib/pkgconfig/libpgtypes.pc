@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.9
+Requires: 
+Requires.private: 
+Cflags: -I/Users/surajnag/Documents/book_recommendation_system/env/include
+Libs: -L/Users/surajnag/Documents/book_recommendation_system/env/lib -lpgtypes
+Libs.private: -L/Users/surajnag/Documents/book_recommendation_system/env/lib -lpgcommon -lpgport -lm

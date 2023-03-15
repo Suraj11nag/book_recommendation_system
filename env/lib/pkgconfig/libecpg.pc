@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 12.9
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/Users/surajnag/Documents/book_recommendation_system/env/include
+Libs: -L/Users/surajnag/Documents/book_recommendation_system/env/lib -lecpg
+Libs.private: -L/Users/surajnag/Documents/book_recommendation_system/env/lib -lpgcommon -lpgport -lm

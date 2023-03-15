@@ -1,0 +1,7 @@
+
+Name: Qt5WebKit
+Description: Qt WebKit module
+Version: 5.212.0
+Libs: -L/Users/surajnag/Documents/book_recommendation_system/env/lib -lQt5WebKit
+Cflags: -I/Users/surajnag/Documents/book_recommendation_system/env/include/qt/QtWebKit 
+Requires: Qt5Core Qt5Gui Qt5Network Qt5Multimedia
