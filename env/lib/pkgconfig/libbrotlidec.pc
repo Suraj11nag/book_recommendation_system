@@ -1,5 +1,5 @@
-prefix=/Users/surajnag/Documents/book_recommendation_system/env
-exec_prefix=/Users/surajnag/Documents/book_recommendation_system/env
+prefix=/Users/surajnag/Documents/book/env
+exec_prefix=/Users/surajnag/Documents/book/env
 libdir=${prefix}/lib
 includedir=${prefix}/include
 

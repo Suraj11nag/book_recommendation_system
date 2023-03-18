@@ -9,12 +9,12 @@
   "extracted_package_dir": "/Users/surajnag/miniconda3/pkgs/appdirs-1.4.4-pyhd3eb1b0_0",
   "features": "",
   "files": [
-    "lib/python3.10/site-packages/appdirs-1.4.4-py3.9.egg-info/PKG-INFO",
-    "lib/python3.10/site-packages/appdirs-1.4.4-py3.9.egg-info/SOURCES.txt",
-    "lib/python3.10/site-packages/appdirs-1.4.4-py3.9.egg-info/dependency_links.txt",
-    "lib/python3.10/site-packages/appdirs-1.4.4-py3.9.egg-info/top_level.txt",
-    "lib/python3.10/site-packages/appdirs.py",
-    "lib/python3.10/site-packages/__pycache__/appdirs.cpython-310.pyc"
+    "lib/python3.11/site-packages/appdirs-1.4.4-py3.9.egg-info/PKG-INFO",
+    "lib/python3.11/site-packages/appdirs-1.4.4-py3.9.egg-info/SOURCES.txt",
+    "lib/python3.11/site-packages/appdirs-1.4.4-py3.9.egg-info/dependency_links.txt",
+    "lib/python3.11/site-packages/appdirs-1.4.4-py3.9.egg-info/top_level.txt",
+    "lib/python3.11/site-packages/appdirs.py",
+    "lib/python3.11/site-packages/__pycache__/appdirs.cpython-311.pyc"
   ],
   "fn": "appdirs-1.4.4-pyhd3eb1b0_0.conda",
   "legacy_bz2_md5": "a1914956aa26b608c4f2d17edadca061",
@@ -66,7 +66,7 @@
         "size_in_bytes": 24720
       },
       {
-        "_path": "lib/python3.10/site-packages/__pycache__/appdirs.cpython-310.pyc",
+        "_path": "lib/python3.11/site-packages/__pycache__/appdirs.cpython-311.pyc",
         "path_type": "pyc_file"
       }
     ],

@@ -9,15 +9,15 @@
   "extracted_package_dir": "/Users/surajnag/miniconda3/pkgs/threadpoolctl-2.2.0-pyh0d69192_0",
   "features": "",
   "files": [
-    "lib/python3.10/site-packages/threadpoolctl-2.2.0.dist-info/INSTALLER",
-    "lib/python3.10/site-packages/threadpoolctl-2.2.0.dist-info/LICENSE",
-    "lib/python3.10/site-packages/threadpoolctl-2.2.0.dist-info/METADATA",
-    "lib/python3.10/site-packages/threadpoolctl-2.2.0.dist-info/RECORD",
-    "lib/python3.10/site-packages/threadpoolctl-2.2.0.dist-info/REQUESTED",
-    "lib/python3.10/site-packages/threadpoolctl-2.2.0.dist-info/WHEEL",
-    "lib/python3.10/site-packages/threadpoolctl-2.2.0.dist-info/direct_url.json",
-    "lib/python3.10/site-packages/threadpoolctl.py",
-    "lib/python3.10/site-packages/__pycache__/threadpoolctl.cpython-310.pyc"
+    "lib/python3.11/site-packages/threadpoolctl-2.2.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/threadpoolctl-2.2.0.dist-info/LICENSE",
+    "lib/python3.11/site-packages/threadpoolctl-2.2.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/threadpoolctl-2.2.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/threadpoolctl-2.2.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/threadpoolctl-2.2.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/threadpoolctl-2.2.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/threadpoolctl.py",
+    "lib/python3.11/site-packages/__pycache__/threadpoolctl.cpython-311.pyc"
   ],
   "fn": "threadpoolctl-2.2.0-pyh0d69192_0.conda",
   "legacy_bz2_md5": "9047a4e29044b6c760b5d94f62622f4d",
@@ -91,7 +91,7 @@
         "size_in_bytes": 31635
       },
       {
-        "_path": "lib/python3.10/site-packages/__pycache__/threadpoolctl.cpython-310.pyc",
+        "_path": "lib/python3.11/site-packages/__pycache__/threadpoolctl.cpython-311.pyc",
         "path_type": "pyc_file"
       }
     ],

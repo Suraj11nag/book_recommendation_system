@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' /Users/surajnag/Documents/book_recommendation_system/env/bin/python "$0" "$@"
-' '''
+#!/Users/surajnag/Documents/book/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

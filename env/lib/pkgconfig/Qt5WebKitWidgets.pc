@@ -1,7 +1,0 @@
-
-Name: Qt5WebKitWidgets
-Description: Qt WebKitWidgets module
-Version: 5.212.0
-Libs: -L/Users/surajnag/Documents/book_recommendation_system/env/lib -lQt5WebKitWidgets
-Cflags: -I/Users/surajnag/Documents/book_recommendation_system/env/include/qt/QtWebKitWidgets 
-Requires: Qt5Core Qt5Gui Qt5Network Qt5Multimedia Qt5Widgets Qt5WebKit Qt5MultimediaWidgets
