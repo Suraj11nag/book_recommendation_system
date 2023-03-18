@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Book Recommender System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <style>
+    .text-white{
+      color:white;
+    }
+  </style>
+  <body style="background-color:#393053;">
+    <nav class="navbar" style="background-color:#18122B;">
+      <a class="navbar-brand">My Book Recommender</a>
+      <ul class="nav navbar-nav">
+        <li><a>Home</a></li>
+        <li><a>Recommend</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-white" style="font-size: 50px;">Top 50 Books</h1>
+        </div>
+
+        {% for items in range(book-name|length)%}
+        <div class="col-md-3" style="margin-top: 50px;">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img-top" src="{{image[items]}}">
+              <h3 class="text-white">Harry Potter</h3>
+              <p class="text-white">J.K Rowling</p>
+              <p class="text-white">Votes - 300</p>
+              <p class="text-white">Rating - 5.3</p>
+            </div>
+          </div>
+        </div>
+        {% endfor%}
+
+        
+      </div>
+    </div>
+  </body>
+</html>
