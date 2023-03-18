@@ -15,5 +15,9 @@ def index():
                            ratings=list(popular_df['avg_rating'].values)
                            )
 
+@app.route('/recommend')
+def recommend_ui():
+    return render_template('recommend.html')
+
 if __name__=='__main__':
     app.run(debug=True)
