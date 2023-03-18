@@ -1,8 +1,8 @@
-prefix=/Users/surajnag/Documents/book/env
+prefix=/Users/surajnag/Documents/books/env
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${libdir}
-includedir=/Users/surajnag/Documents/book/env/include
+includedir=/Users/surajnag/Documents/books/env/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces

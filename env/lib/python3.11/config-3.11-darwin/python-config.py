@@ -1,4 +1,4 @@
-#!/Users/surajnag/Documents/book/env/bin/python3.11
+#!/Users/surajnag/Documents/books/env/bin/python3.11
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

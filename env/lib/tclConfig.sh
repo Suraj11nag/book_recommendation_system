@@ -44,11 +44,11 @@ TCL_LIBS=' -lz  -lpthread -framework CoreFoundation '
 
 # Top-level directory in which Tcl's platform-independent files are
 # installed.
-TCL_PREFIX='/Users/surajnag/Documents/book/env'
+TCL_PREFIX='/Users/surajnag/Documents/books/env'
 
 # Top-level directory in which Tcl's platform-specific files (e.g.
 # executables) are installed.
-TCL_EXEC_PREFIX='/Users/surajnag/Documents/book/env'
+TCL_EXEC_PREFIX='/Users/surajnag/Documents/books/env'
 
 # Flags to pass to cc when compiling the components of a shared library:
 TCL_SHLIB_CFLAGS='-fno-common'
@@ -57,7 +57,7 @@ TCL_SHLIB_CFLAGS='-fno-common'
 TCL_CFLAGS_WARNING='-Wall -Wpointer-arith'
 
 # Extra flags to pass to cc:
-TCL_EXTRA_CFLAGS='-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/surajnag/Documents/book/env/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work=/usr/local/src/conda/tk-8.6.12 -fdebug-prefix-map=/Users/surajnag/Documents/book/env=/usr/local/src/conda-prefix -pipe  -D_FORTIFY_SOURCE=2 -isystem /Users/surajnag/Documents/book/env/include -mmacosx-version-min=11.1 '
+TCL_EXTRA_CFLAGS='-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/surajnag/Documents/books/env/include -fdebug-prefix-map=/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work=/usr/local/src/conda/tk-8.6.12 -fdebug-prefix-map=/Users/surajnag/Documents/books/env=/usr/local/src/conda-prefix -pipe  -D_FORTIFY_SOURCE=2 -isystem /Users/surajnag/Documents/books/env/include -mmacosx-version-min=11.1 '
 
 # Base command to use for combining object files into a shared library:
 TCL_SHLIB_LD='${CC} -dynamiclib ${CFLAGS} ${LDFLAGS} -Wl,-single_module'
@@ -79,7 +79,7 @@ TCL_DL_LIBS=''
 
 # Flags to pass to the compiler when linking object files into
 # an executable tclsh or tcltest binary.
-TCL_LD_FLAGS='-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/surajnag/Documents/book/env/lib -L/Users/surajnag/Documents/book/env/lib -headerpad_max_install_names -Wl,-search_paths_first '
+TCL_LD_FLAGS='-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/surajnag/Documents/books/env/lib -L/Users/surajnag/Documents/books/env/lib -headerpad_max_install_names -Wl,-search_paths_first '
 
 # Flags to pass to cc/ld, such as "-R /usr/local/tcl/lib", that tell the
 # run-time dynamic linker where to look for shared libraries such as
@@ -104,11 +104,11 @@ TCL_BUILD_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/a
 
 # String to pass to linker to pick up the Tcl library from its
 # installed directory.
-TCL_LIB_SPEC='-L/Users/surajnag/Documents/book/env/lib -ltcl8.6'
+TCL_LIB_SPEC='-L/Users/surajnag/Documents/books/env/lib -ltcl8.6'
 
 # String to pass to the compiler so that an extension can
 # find installed Tcl headers.
-TCL_INCLUDE_SPEC='-I/Users/surajnag/Documents/book/env/include'
+TCL_INCLUDE_SPEC='-I/Users/surajnag/Documents/books/env/include'
 
 # Indicates whether a version numbers should be used in -l switches
 # ("ok" means it's safe to use switches like -ltcl7.5;  "nodots" means
@@ -140,7 +140,7 @@ TCL_SRC_DIR='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c01125
 # List of standard directories in which to look for packages during
 # "package require" commands.  Contains the "prefix" directory plus also
 # the "exec_prefix" directory, if it is different.
-TCL_PACKAGE_PATH='{/Users/surajnag/Documents/book/env/lib} '
+TCL_PACKAGE_PATH='{/Users/surajnag/Documents/books/env/lib} '
 
 # Tcl supports stub.
 TCL_SUPPORTS_STUBS=1
@@ -157,13 +157,13 @@ TCL_BUILD_STUB_LIB_SPEC='-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000g
 
 # String to pass to linker to pick up the Tcl stub library from its
 # installed directory.
-TCL_STUB_LIB_SPEC='-L/Users/surajnag/Documents/book/env/lib -ltclstub8.6'
+TCL_STUB_LIB_SPEC='-L/Users/surajnag/Documents/books/env/lib -ltclstub8.6'
 
 # Path to the Tcl stub library in the build directory.
 TCL_BUILD_STUB_LIB_PATH='/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/libtclstub8.6.a'
 
 # Path to the Tcl stub library in the install directory.
-TCL_STUB_LIB_PATH='/Users/surajnag/Documents/book/env/lib/libtclstub8.6.a'
+TCL_STUB_LIB_PATH='/Users/surajnag/Documents/books/env/lib/libtclstub8.6.a'
 
 # Flag, 1: we built Tcl with threads enabled, 0 we didn't
 TCL_THREADS=1

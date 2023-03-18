@@ -1,4 +1,4 @@
-prefix=/Users/surajnag/Documents/book/env
+prefix=/Users/surajnag/Documents/books/env
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

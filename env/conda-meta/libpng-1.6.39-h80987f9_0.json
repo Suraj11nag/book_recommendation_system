@@ -55,7 +55,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_82_4en_via/croot/libpng_1677841703835/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "e0f25ae9433409924590c5bf8cfddf4c340b8ae390317945487ed7c55c29ed98",
-        "sha256_in_prefix": "e4b6b0ecf3158d99e0b4d608326184ee4054665247917b7a3ae7073e78660b17",
+        "sha256_in_prefix": "99ece18d0c9f4d6fa274e2197d42b8da7b4c8a327554c4fcf81dbf5d77fd04a0",
         "size_in_bytes": 2564
       },
       {
@@ -155,7 +155,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_82_4en_via/croot/libpng_1677841703835/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
         "sha256": "8c6ecc08145e9ffec194a382ef2b9d4d2db55b3d447cf47a9a3fca7fab7c0f28",
-        "sha256_in_prefix": "ccc0f2884ec1841c2e960c6bc993062467d39849d4a14dbc7f16bb070a6c621a",
+        "sha256_in_prefix": "db6bf5b2e30fa350b7490b7ace67951bcfe5014949d9a29abeca0881fedb8223",
         "size_in_bytes": 510
       },
       {

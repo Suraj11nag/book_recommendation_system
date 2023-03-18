@@ -55,7 +55,7 @@ add_library(libdeflate::libdeflate_shared SHARED IMPORTED)
 
 set_target_properties(libdeflate::libdeflate_shared PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "LIBDEFLATE_DLL"
-  INTERFACE_INCLUDE_DIRECTORIES "/Users/surajnag/Documents/book/env/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/Users/surajnag/Documents/books/env/include"
 )
 
 # Load information for each installed configuration.

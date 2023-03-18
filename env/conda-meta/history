@@ -1,4 +1,4 @@
-==> 2023-03-18 18:04:18 <==
+==> 2023-03-18 18:34:37 <==
 # cmd: /Users/surajnag/miniconda3/bin/conda create --prefix ./env pandas numpy matplotlib scikit-learn
 # conda version: 23.1.0
 +defaults/noarch::appdirs-1.4.4-pyhd3eb1b0_0
@@ -75,4 +75,4 @@
 +defaults/osx-arm64::xz-5.2.10-h80987f9_1
 +defaults/osx-arm64::zlib-1.2.13-h5a0b063_0
 +defaults/osx-arm64::zstd-1.5.2-h8574219_0
-# update specs: ['pandas', 'scikit-learn', 'matplotlib', 'numpy']
+# update specs: ['matplotlib', 'pandas', 'scikit-learn', 'numpy']

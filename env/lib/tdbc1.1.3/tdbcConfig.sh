@@ -24,8 +24,8 @@ TDBC_BUILD_LIB_SPEC="-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/
 
 # String to pass to the linker to pick up the TDBC library from its installed
 # dir.
-tdbc_LIB_SPEC="-L/Users/surajnag/Documents/book/env/lib/tdbc1.1.3 -ltdbc1.1.3"
-TDBC_LIB_SPEC="-L/Users/surajnag/Documents/book/env/lib/tdbc1.1.3 -ltdbc1.1.3"
+tdbc_LIB_SPEC="-L/Users/surajnag/Documents/books/env/lib/tdbc1.1.3 -ltdbc1.1.3"
+TDBC_LIB_SPEC="-L/Users/surajnag/Documents/books/env/lib/tdbc1.1.3 -ltdbc1.1.3"
 
 # Name of the TBDC stub library
 tdbc_STUB_LIB_FILE="libtdbcstub1.1.3.a"
@@ -38,16 +38,16 @@ TDBC_BUILD_STUB_LIB_SPEC="-L/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000
 
 # String to pass to the linker to pick up the TDBC stub library from its
 # installed directory
-tdbc_STUB_LIB_SPEC="-L/Users/surajnag/Documents/book/env/lib/tdbc1.1.3 -ltdbcstub1.1.3"
-TDBC_STUB_LIB_SPEC="-L/Users/surajnag/Documents/book/env/lib/tdbc1.1.3 -ltdbcstub1.1.3"
+tdbc_STUB_LIB_SPEC="-L/Users/surajnag/Documents/books/env/lib/tdbc1.1.3 -ltdbcstub1.1.3"
+TDBC_STUB_LIB_SPEC="-L/Users/surajnag/Documents/books/env/lib/tdbc1.1.3 -ltdbcstub1.1.3"
 
 # Path name of the TDBC stub library in its build directory
 tdbc_BUILD_STUB_LIB_PATH="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/pkgs/tdbc1.1.3/libtdbcstub1.1.3.a"
 TDBC_BUILD_STUB_LIB_PATH="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/unix/pkgs/tdbc1.1.3/libtdbcstub1.1.3.a"
 
 # Path name of the TDBC stub library in its installed directory
-tdbc_STUB_LIB_PATH="/Users/surajnag/Documents/book/env/lib/tdbc1.1.3/libtdbcstub1.1.3.a"
-TDBC_STUB_LIB_PATH="/Users/surajnag/Documents/book/env/lib/tdbc1.1.3/libtdbcstub1.1.3.a"
+tdbc_STUB_LIB_PATH="/Users/surajnag/Documents/books/env/lib/tdbc1.1.3/libtdbcstub1.1.3.a"
+TDBC_STUB_LIB_PATH="/Users/surajnag/Documents/books/env/lib/tdbc1.1.3/libtdbcstub1.1.3.a"
 
 # Location of the top-level source directories from which TDBC was built.
 # This is the directory that contains doc/, generic/ and so on.  If TDBC
@@ -59,8 +59,8 @@ TDBC_SRC_DIR="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c0112
 
 # String to pass to the compiler so that an extension can find installed TDBC
 # headers
-tdbc_INCLUDE_SPEC="-I/Users/surajnag/Documents/book/env/include"
-TDBC_INCLUDE_SPEC="-I/Users/surajnag/Documents/book/env/include"
+tdbc_INCLUDE_SPEC="-I/Users/surajnag/Documents/books/env/include"
+TDBC_INCLUDE_SPEC="-I/Users/surajnag/Documents/books/env/include"
 
 # String to pass to the compiler so that an extension can find TDBC headers
 # in the source directory
@@ -68,8 +68,8 @@ tdbc_BUILD_INCLUDE_SPEC="-I/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000g
 TDBC_BUILD_INCLUDE_SPEC="-I/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/pkgs/tdbc1.1.3/generic"
 
 # Path name where .tcl files in the tdbc package appear at run time.
-tdbc_LIBRARY_PATH="/Users/surajnag/Documents/book/env/lib/tdbc1.1.3"
-TDBC_LIBRARY_PATH="/Users/surajnag/Documents/book/env/lib/tdbc1.1.3"
+tdbc_LIBRARY_PATH="/Users/surajnag/Documents/books/env/lib/tdbc1.1.3"
+TDBC_LIBRARY_PATH="/Users/surajnag/Documents/books/env/lib/tdbc1.1.3"
 
 # Path name where .tcl files in the tdbc package appear at build time.
 tdbc_BUILD_LIBRARY_PATH="/private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c011255d-355d-4e10-9d06-2a364b791019h2p45nxx/croots/recipe/tk_1654088770111/work/tcl8.6.12/pkgs/tdbc1.1.3/library"
