@@ -9,7 +9,66 @@
     .text-white{
       color:white;
     }
+    </style>
+    <style>
+    body {
+      background-color: #393053;
+    }
+    .navbar {
+      background-color: #18122B;
+      color: #ffffff;
+      padding: 10px;
+      border: none;
+      border-radius: 0;
+      margin-bottom: 0;
+    }
+    .navbar-brand {
+      font-size: 25px;
+      padding: 10px 15px;
+      margin-right: 0;
+      line-height: 30px;
+      color: #ffffff;
+    }
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+      color: #ffffff;
+    }
+    .navbar-nav > li > a {
+      color: #ffffff;
+      font-size: 20px;
+      line-height: 30px;
+      padding: 10px 15px;
+    }
+    .navbar-nav > li > a:hover,
+    .navbar-nav > li > a:focus {
+      color: #ffffff;
+      background-color: transparent;
+    }
   </style>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">My Book Recommender</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="/recommend">Recommend</a></li>
+            <li><a href="https://surajnag.netlify.app/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+
+    <!-- /* </style>
   <body style="background-color:#393053;">
     <nav class="navbar" style="background-color:#18122B;">
       <a class="navbar-brand">My Book Recommender</a>
@@ -18,30 +77,35 @@
         <li><a href="/recommend">Recommend</a></li>
         <li><a>Contact</a></li>
       </ul>
-    </nav>
+    </nav>  */ -->
 
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1 class="text-white" style="font-size: 50px;">Recommend Books</h1>
           <form action="/recommend_books" method = "post">
-            <input name="user_input" type="text" class="form-control"><br>
+            <input name="user_input" type="text" class="form-control" placeholder="Search..."><br>
             <input type="Submit" class="btn btn-lg btn-warning">
           </form>
+          {% if message %}
+          <p class="text-danger" style="margin-top: 50px; font-weight: bold; color: red; font-size: 24px">{{ message }}</p>
+          {% endif %}
         </div>
 
+        {% if data %}
+        {% for i in data %}
         <div class="col-md-3" style="margin-top: 50px;">
           <div class="card">
             <div class="card-body">
-              <img class="card-img-top" src="http://images.amazon.com/images/P/0439136350.01.MZZZZZZZ.jpg">
-              <h3 class="text-white">Harry Potter</h3>
-              <p class="text-white">J K Rowling</p>
-              <p class="text-white">Votes: 300</p>
-              <p class="text-white">ratings: 5.2</p>
+              <img class="card-img-top" src="{{i[2]}}">
+              <h4 class="text-white">{{i[0]}}</h4>
+              <p class="text-white">{{i[1]}}</p>
             </div>
           </div>
         </div>
-        
+        {% endfor %}
+        {% endif %}
+
       </div>
     </div>
   </body>
